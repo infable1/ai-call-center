@@ -1,0 +1,22 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Credentials
+credentials.json
+secrets.json
+
+# Dependencies / build output
+node_modules/
+dist/
+build/
+
+# Local IDE settings
+.vscode/
